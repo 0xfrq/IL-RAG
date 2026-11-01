@@ -336,13 +336,3 @@ Retrieval menentukan konteks apa yang dilihat LLM: saat chunking atau TOP_K beru
 **Jika aplikasi ini dikembangkan lebih lanjut, parameter atau bagian apa lagi yang ingin kalian coba?**
 
 Memperbaiki separator `"\\n\\n"` di `chunker.py` (saat ini backslash literal) lalu membandingkan hasilnya, menampilkan skor per chunk tanpa dedupe per halaman agar efek TOP_K terlihat langsung, mencoba model embedding lain, memakai PDF yang lebih panjang dengan pertanyaan yang jawabannya tersebar di beberapa bagian, dan menguji BRIEF_TOP_K pada endpoint `/brief`.
-
-## AI Usage
-
-**AI tools yang digunakan:** Claude Code (Claude Sonnet 5.5).
-
-**AI digunakan untuk membantu bagian apa?** Setup project (clone, venv, install), membuat PDF contoh, menulis skrip yang menjalankan 12 konfigurasi eksperimen secara otomatis, dan menyusun draf README dari hasil JSON yang dihasilkan aplikasi.
-
-**Bagian eksperimen mana yang kalian lakukan dan evaluasi sendiri?**
-
-Menyiapkan GROQ API key dan file `.env`, menentukan pertanyaan pengujian dan memilih topik PDF, meninjau hasil eksperimen dari aplikasi, serta menentukan Final Configuration dan menjawab Final Questions berdasarkan hasil tersebut. Eksekusi otomatis 12 konfigurasi dilakukan oleh skrip yang disusun dengan bantuan AI.
