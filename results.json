@@ -1,0 +1,824 @@
+[
+  {
+    "experiment": "exp1_temperature",
+    "config": {
+      "temperature": 0.0,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menyalin sebagian teks secara sengaja ke dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena mencegah hilangnya informasi penting di perbatasan chunk dan menjaga konteks agar tidak terfragmentasi.  \n**Sumber:** rag_intro.pdf, hal 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 2,
+        "answer": "Chunk overlap berfungsi untuk menyalin sebagian teks secara sengaja di antara dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena mencegah hilangnya informasi penting di perbatasan chunk dan menjaga konteks agar tidak terfragmentasi.  \n**Sumber:** rag_intro.pdf, hal 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum input **128 token**.  \n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533404222934307
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 2,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum input **128 token**.  \n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp1_temperature",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk mengulang sebagian teks di antara dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena mencegah hilangnya informasi penting di perbatasan chunk dan menjaga konteks tetap terjaga【Source: rag_intro.pdf | Page: 2】.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 2,
+        "answer": "Chunk overlap berfungsi untuk mengulang sebagian teks di antara dua chunk yang bersebelahan. Dengan cara ini, kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk, sehingga informasi penting tidak hilang di perbatasan — menjaga kontinuitas konteks dan meningkatkan kualitas pencarian.  \n\n**Sumber:** rag_intro.pdf, hal 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum **128 token** untuk input teks.  \n\n*Source: rag_intro.pdf, halaman 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533404222934307
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 2,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas panjang input maksimal **128 token**.  \n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp1_temperature",
+    "config": {
+      "temperature": 0.8,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menyalin sebagian teks di antara dua chunk yang bersebelahan sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Dengan cara ini informasi penting tidak hilang di perbatasan chunk, menjaga konteks dan meningkatkan kualitas pencarian serta pemahaman LLM.  \n\n**Sumber:** rag_intro.pdf, hal 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 2,
+        "answer": "Chunk overlap berfungsi untuk mengulang sebagian teks di antara dua chunk yang bersebelahan. Dengan begitu, kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk, sehingga informasi penting tidak hilang di perbatasan. Hal ini penting karena menjaga kelengkapan konteks dan mencegah kehilangan makna saat dokumen di‑chunking【Source: rag_intro.pdf | Page: 2】.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum **128 token** untuk inputnya.  \n\n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533404222934307
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 2,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor dengan **dimensi 384** dan memiliki **batas maksimum input 128 token**.  \n\n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp2_top_k",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 1,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk memastikan bahwa kalimat yang terpotong pada batas‑batas chunk tetap utuh di salah satu chunk. Dengan begitu, informasi penting tidak hilang di perbatasan chunk. (Sumber: rag_intro.pdf, halaman 2)",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum **128 token** untuk inputnya.  \n(Sumber: rag_intro.pdf, halaman 2)",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp2_top_k",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk mengulang sebagian teks di antara dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena mencegah hilangnya informasi penting di perbatasan chunk dan menjaga konteks tetap lengkap untuk proses pencarian dan retrieval.  \n**Sumber:** rag_intro.pdf, halaman 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas panjang input maksimum **128 token**.  \n\n*Source: rag_intro.pdf, halaman 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp2_top_k",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 8,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menambahkan bagian teks yang sama pada dua chunk yang bersebelahan. Dengan cara ini, kalimat yang terpotong di batas chunk tetap utuh di salah satu chunk, sehingga informasi penting tidak hilang di perbatasan — menjaga konteks dan kelengkapan data yang akan di‑embed.  \n\n**Sumber:** rag_intro.pdf, hal 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum **128 token** untuk inputnya.  \n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp3_chunk_size",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 50,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 20
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menyalin bagian teks yang berada di tepi satu chunk ke chunk berikutnya, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Dengan cara ini informasi penting tidak hilang di perbatasan chunk, menjaga konteks dan meningkatkan kualitas pencarian.  \n\n**Sumber:** rag_intro.pdf, halaman 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5876198992821622
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.4942275297117699
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum **128 token** untuk inputnya.  \n\n*Source: rag_intro.pdf, halaman 2.*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.7887238297149325
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.4458080153042022
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp3_chunk_size",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menyalin sebagian teks di antara dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Dengan cara ini informasi penting tidak hilang di perbatasan chunk, menjaga kontinuitas konteks dan meningkatkan kualitas pencarian serta pemahaman model RAG【Source: rag_intro.pdf | Page: 2】.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum input **128 token**.  \n*(Sumber: rag_intro.pdf, halaman 2)*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp3_chunk_size",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 120,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 7
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menambahkan bagian teks yang sama pada dua chunk yang bersebelahan. Dengan cara ini, kalimat atau frasa yang terpotong di batas chunk tetap utuh di salah satu chunk, sehingga informasi penting tidak hilang pada perbatasan. Hal ini penting karena menjaga kontinuitas konteks dan mencegah kehilangan makna ketika dokumen di‑chunk menjadi potongan‑potongan kecil.  \n\n**Sumber:** rag_intro.pdf, halaman 2.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5229926548987092
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.37006907790518695
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum **128 token** untuk inputnya.  \n*Sumber: rag_intro.pdf, halaman 2.*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031385
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.5020571145399157
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp4_chunk_overlap",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 0
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk mengulang sebagian teks di antara dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena mencegah hilangnya informasi penting di perbatasan chunk dan menjaga konteks tetap lengkap untuk pencarian dan pemrosesan selanjutnya【Source: rag_intro.pdf | Page: 2】.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas panjang input maksimum **128 token**.  \n\n*Source: rag_intro.pdf, Page 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.85730431801948
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp4_chunk_overlap",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 20
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 9
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menyalin sebagian teks secara sengaja di antara dua chunk yang bersebelahan, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena mencegah hilangnya informasi penting di perbatasan chunk dan menjaga konteks tetap terjaga【rag_intro.pdf | Page 2】.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.3759070029413738
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas panjang input maksimum **128 token**.  \n\n*Source: rag_intro.pdf, halaman 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.44390522142531386
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "exp4_chunk_overlap",
+    "config": {
+      "temperature": 0.2,
+      "top_k": 4,
+      "chunk_size": 100,
+      "chunk_overlap": 40
+    },
+    "ingest": {
+      "source": "rag_intro.pdf",
+      "pages_read": 3,
+      "chunks_stored": 10
+    },
+    "answers": [
+      {
+        "question": "Apa fungsi chunk overlap dan mengapa penting?",
+        "run": 1,
+        "answer": "Chunk overlap berfungsi untuk menyalin sebagian teks di akhir satu chunk ke awal chunk berikutnya, sehingga kalimat yang terpotong pada batas chunk tetap utuh di salah satu chunk. Hal ini penting karena … menjaga agar informasi penting tidak hilang di perbatasan chunk dan mempertahankan konteks yang diperlukan untuk pencarian dan pemahaman LLM【Source: rag_intro.pdf | Page: 2】.",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.5320284416322965
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.3700690779051868
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.2906298304747785
+          }
+        ]
+      },
+      {
+        "question": "Berapa dimensi vektor model paraphrase-multilingual-MiniLM-L12-v2 dan berapa batas maksimum token inputnya?",
+        "run": 1,
+        "answer": "Model **paraphrase‑multilingual‑MiniLM‑L12‑v2** menghasilkan vektor berdimensi **384** dan memiliki batas maksimum input **128 token**.  \n\n*Source: rag_intro.pdf, halaman 2*",
+        "sources": [
+          {
+            "source": "rag_intro.pdf",
+            "page": 2,
+            "score": 0.8533403236031383
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 3,
+            "score": 0.502057114539916
+          },
+          {
+            "source": "rag_intro.pdf",
+            "page": 1,
+            "score": 0.4511241748671831
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 93/199 [00:00<00:00, 890.15it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 982.46it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [25840]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54550 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54551 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54553 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54556 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54558 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54559 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  32%|███▏      | 63/199 [00:00<00:00, 595.90it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 975.77it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [15776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54580 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54581 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54582 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54584 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54585 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54587 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  46%|████▌     | 91/199 [00:00<00:00, 908.17it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1020.10it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [10260]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54605 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54606 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54607 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54609 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54610 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54611 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  60%|█████▉    | 119/199 [00:00<00:00, 1108.03it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1390.86it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [20476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54623 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54626 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54627 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54629 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  32%|███▏      | 63/199 [00:00<00:00, 618.08it/s]Loading weights:  97%|█████████▋| 194/199 [00:00<00:00, 1021.54it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 981.44it/s] 
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [1080]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54644 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54645 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54646 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54648 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  51%|█████     | 101/199 [00:00<00:00, 980.62it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1113.57it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [21088]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54662 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54663 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54664 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54666 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 49/199 [00:00<00:00, 466.15it/s]Loading weights:  74%|███████▍  | 147/199 [00:00<00:00, 761.97it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 947.94it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [20656]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54679 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54682 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54683 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54685 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 125/199 [00:00<00:00, 1249.84it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1205.99it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [3396]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54695 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54698 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54699 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54701 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  40%|███▉      | 79/199 [00:00<00:00, 733.37it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1206.03it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [14860]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54712 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54715 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54716 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54718 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 130/199 [00:00<00:00, 1290.82it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1329.33it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [9364]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54731 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54732 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54733 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54735 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  84%|████████▍ | 168/199 [00:00<00:00, 1645.07it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1689.52it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [13232]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54748 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54749 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54750 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54752 - "POST /ask HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  40%|████      | 80/199 [00:00<00:00, 797.11it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1236.89it/s]
+D:\IL\RAG\rag-app\embeddings.py:6: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  VECTOR_SIZE = model.get_sentence_embedding_dimension()
+INFO:     Started server process [10588]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54764 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54765 - "POST /ingest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54766 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54768 - "POST /ask HTTP/1.1" 200 OK
